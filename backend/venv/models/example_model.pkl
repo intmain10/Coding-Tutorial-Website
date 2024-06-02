@@ -1,0 +1,5 @@
+import pickle as pickle5
+
+example_model = {'example_key': 'example_value'}
+with open('backend/models/example_model.pkl', 'wb') as model_file:
+    pickle.dump(example_model, model_file)
